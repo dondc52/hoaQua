@@ -1,0 +1,92 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+header {
+	margin: auto;
+	width: 900px;
+	height: 80px;
+	background-color: #009999; 
+}
+
+header div.banner h1 {
+	text-align: center;
+	line-height: 80px;
+	color: #ffffcc;
+}
+
+nav {
+	margin: auto;
+	background-color: #555555;
+	width: 900px;
+	height: 50px;
+}
+
+ul li:last-child {
+	float: right;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+main {
+	margin: auto;
+	width: 900px;
+	height: 570px;
+	background-color: #AAAAAA;
+}
+
+main div.l {
+	float: left;
+	height: 570px;
+	width: 70%;
+}
+
+main div.r {
+	background-color: #999999;
+	float: left;
+	height: 570px;
+	width: 30%;
+}
+
+main div.r div:first-child {
+	height: 40px; 
+	background-color: #999933;
+}
+
+main div.r div a{
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+}
+
+main div.l div.h {
+	color: white;
+	height: 50px;
+	background-color: #999966;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+}
+
+main div.l div.e {
+	height: 130px;
+}
+
+main div.l div.b, div.d {
+	background-color: #777777;
+}
