@@ -20,7 +20,7 @@
 			</div><br>
 			<div class="r a">				
 				<label for="pass"> Nhập lại MK: </label>
-				<input type="password" name="pass" id="pass">
+				<input type="password" name="pass1" id="pass1">
 			</div><br>
 
 			<button style="margin: 0 0 15px 190px;" type="submit" name="btnLogin"> Đăng Ký </button>

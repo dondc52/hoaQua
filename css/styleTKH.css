@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+header {
+	margin: auto;
+	width: 900px;
+	height: 80px;
+	background-color: #009999; 
+}
+
+header div.banner h1 {
+	text-align: center;
+	line-height: 80px;
+	color: #ffffcc;
+}
+
+nav {
+	margin: auto;
+	background-color: #555555;
+	width: 900px;
+	height: 50px;
+}
+
+ul li:last-child {
+	float: right;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+main {
+	margin: auto;
+	width: 900px;
+	height: 100px;
+	background-color: #AAAAAA;
+}
+
+main div.ten {
+	width: 260px;
+	float: left;
+	background-color: #cccccc;
+	height: 100px;
+}
+
+main div.ma {
+	width: 260px;
+	float: left;
+	background-color: #999933;
+	height: 100px;
+}
+
+main div.ds {
+	background-color: #AAAAAA;
+	float: left;
+	height: 100px;
+	width: 260px;
+}
+
+main div.abc div:first-child {
+	height: 30px;
+	background-color: #999966;
+}
+
+main div.ten div:first-child {
+	background-color: #888844;
+}
+
+main div.abc div a {
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	text-decoration: none;
+} 
+
+main div.abc input.b {
+	width: 220px;
+	height: 30px;
+	margin: 10px 20px;
+}
+
+main div.abc button {
+	width: 220px;
+	height: 30px;
+	margin: 30px 20px;	
+}
+
+main div.ok {
+	float: right;
+	width: 120px;
+	height: 100px;
+	background-color: #900333;
+}
+
+main div.ok button {
+	width: 80px;
+	height: 40px;
+	margin: 30px 20px;
+}
